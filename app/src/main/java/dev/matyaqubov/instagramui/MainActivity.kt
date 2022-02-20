@@ -40,10 +40,13 @@ class MainActivity : AppCompatActivity() {
         val feeds=ArrayList<Feed>()
         feeds.add(Feed(stories))
         feeds.add(Feed(Post(R.drawable.profile_bogibek,"Matyaqubov",R.drawable.post_image_1)))
+        //for 3 image
         feeds.add(Feed(Post(R.drawable.profile_ogabek,"Ogabek dev", arrayListOf(R.drawable.post_image_1,R.drawable.post_image_1,R.drawable.post_image_1))))
+        //for ads
+        feeds.add(Feed(Post(R.drawable.img_2,"yandex.adv",R.drawable.img),true))
+        //simple post
         feeds.add(Feed(Post(R.drawable.profile_saidahmad,"Saidahmad",R.drawable.post_image_1)))
         feeds.add(Feed(Post(R.drawable.profile_nazirov,"Nazirov",R.drawable.post_image_1)))
-        feeds.add(Feed(Post(R.drawable.img_2,"yandex.adv",R.drawable.img),true))
         feeds.add(Feed(Post(R.drawable.profile_ogabek,"Ogabek dev",R.drawable.post_image_1)))
         feeds.add(Feed(Post(R.drawable.profile_mine,"Jonibek",R.drawable.post_image_1)))
 
